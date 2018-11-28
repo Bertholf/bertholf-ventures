@@ -1,0 +1,22 @@
+
+
+/*Media Queries*/
+@media (max-width: 767px) {
+  .navbar .navbar-brand .navbar-logo {
+    height: 50px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-brand .navbar-logo {
+    height: 50px;
+  }
+  .navbar.navbar-transparent .navbar-brand .navbar-logo {
+    height: auto;
+  }
+  .navbar {
+    padding-top: 7px;
+    padding-bottom: 7px;    
+  }
+}
